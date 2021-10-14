@@ -1,0 +1,27 @@
+{
+  "name": "webpack-practice",
+  "version": "1.0.0",
+  "description": "Restauraunt landpage to practice WebPack",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flo-314/webpack-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Flo-314/webpack-practice/issues"
+  },
+  "homepage": "https://github.com/Flo-314/webpack-practice#readme",
+  "devDependencies": {
+    "webpack": "^5.58.2",
+    "webpack-cli": "^4.9.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
