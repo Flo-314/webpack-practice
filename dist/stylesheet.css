@@ -109,15 +109,52 @@ main {
   height: 300px;
   
 }
+#hamburguesa:hover{
+  transform: scale(1.1);
+  transition: 0.4s;
+  background-image: url(https://t2.rg.ltmcdn.com/es/images/0/8/9/img_pan_para_hamburguesa_28980_orig.jpg);
+  background-size: cover;
+}
+#milanesa:hover{
+  transform: scale(1.1);
+  transition: 0.4s;
+  background-image: url(https://viapais.com.ar/resizer/R1hsQjyZQrVim6i9TweHrvsRZS4=/1200x630/smart/cloudfront-us-east-1.images.arcpublishing.com/grupoclarin/MIZDGNRWMJRWKZLEGQZGCNRSGI.jpg);
+  background-size: cover;
+}
+#tortilla:hover{
+  transform: scale(1.1);
+  transition: 0.4s;
+  background-image: url(https://www.goya.com/media/3816/tortilla-espan-ola-potato-omelet.jpg?quality=80);
+  background-size: cover;
+}
+#muzzarela:hover{
+  transform: scale(1.1);
+  transition: 0.4s;
+  background-image: url(https://i2.wp.com/locosxlapizza.com/wp-content/uploads/2015/02/pizza-mozzarella-receta-locosxlapizza-locos-x-la-pizza.jpg?fit=800%2C500&ssl=1);
+  background-size: cover;
+}
+#empanadas:hover{
+  transform: scale(1.1);
+  transition: 0.4s;
+  background-image: url(https://www.unileverfoodsolutions.com.ar/dam/global-ufs/mcos/sla/argentina/calcmenu/recipes/AR-recipes/pack-shot-truth-visual/empanadas-de-carne/main-header.jpg);
+  background-size: cover;
+}
+#cafe:hover{
+  transform: scale(1.1);
+  transition: 0.4s;
+  background-image: url(https://i1.wp.com/depostalesurbanas.com/wp-content/uploads/2013/10/cafe-con-leche-y-medialunas.jpg?fit=720%2C720&ssl=1);
+  background-size: cover;
+}
 
 footer {
-  font-size: 24px;
+  color: black;
+  font-size: 28px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0px;
   height: 150px;
-  background-color: #e76f51;
+  background-color: rgb(255, 255, 255);
 }
 footer img {
   margin: 12px;
