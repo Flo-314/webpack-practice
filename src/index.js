@@ -1,22 +1,76 @@
-import _ from 'lodash';
+ import { createHead, createMain, createFooter } from "./initPage.js";
+import { createHome } from "./home.js";
+import { createContact } from "./contacto.js";
+import { createMenu } from "./menu.js";
 
-{/* <div id="content"></div>
-<header id="header">
-  <h1>Pizzeria El Baguala</h1>
-  <nav>
-    <button>Home</button>
-    <button>Nuestro Menu</button>
-    <button>Contacto</button>
-  </nav>
-  <main>
-    <div id="home">
-      <img
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTht8CjWnaGEdUQIp2W4_Ik5LrzSN1jSWCImFlJzUTIXoKWVaX0DlqSnQe05I2qbr2y6Pg&usqp=CAU"
-        alt=""
-      />
-      Desde 1969 situada en la esquina de la bella Plaza Merced. Manteniendo el
-      mismo sabor tradicional de la verdadera pizza Argentina. Nuestra
-      Experiencia atraviesa la memoria emotiva de los paisanos.
-    </div>
-  </main>
-</header>  */}
+function clearMain(){
+  const main = document.querySelector("main")
+  main.innerHTML = ""
+}
+
+
+createHead();
+createMain();
+createMenu();
+createFooter();
+
+ const homeBtn = document.querySelector("#homeBtn");
+const menuBtn = document.querySelector("#menuBtn");
+const contactBtn = document.querySelector("#contactBtn");
+
+homeBtn.addEventListener("click", () => {
+  let home = document.querySelector("#home")
+  if(home === null){
+    clearMain()
+    createHome()
+  }
+});
+menuBtn.addEventListener("click", () => {
+  let menu = document.querySelector("#menu")
+  if(menu === null){
+    clearMain()
+    createMenu()
+  }
+});
+contactBtn.addEventListener("click", () => {
+  let contact = document.querySelector("#contact")
+  if(contact === null){
+    clearMain()
+    createContact()
+  }
+}); 
+ 
+/* </div>
+
+    <header id="header">
+    <div id="title-container"><h1>La Turba</h1></div>  
+    <p>Av. Varela 503</p>  
+    <nav>
+        <button>Home</button>
+        <button>Menu</button>
+        <button>Contacto</button>
+      </nav>
+    </header>
+    <img id="header-img" src="" alt="">  
+      <main>
+        <div id="title">Nuestro Menu</div>
+        <div id="menu">
+          <div class="menuContainer" id="hamburguesa">  Hamburguesa con Papas Fritas</div>
+          <div class="menuContainer" id="milanesa">Milanesa con Papas Fritas</div>
+          <div class="menuContainer" id="tortilla">Tortilla a la Española</div>
+          <div class="menuContainer" id="muzzarela">Pizza de Muzzarela</div>
+          <div class="menuContainer" id="empanadas">Empanadas de Carne</div>
+          <div class="menuContainer" id="cafe">Cafe con Medialunas</div>
+          <div class="menuContainer" id="cafe">Cafe con Medialunas</div>
+          <div class="menuContainer" id="cafe">Cafe con Medialunas</div>
+          <div class="menuContainer" id="cafe">Cafe con Medialunas</div>
+          <div class="menuContainer" id="cafe">Cafe con Medialunas</div>
+          <div class="menuContainer" id="cafe">Cafe con Medialunas</div>
+          <div class="menuContainer" id="cafe">Cafe con Medialunas</div>
+
+
+      </main>
+    
+    <footer>
+      Page created by flo   <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="">
+    </footer> */
