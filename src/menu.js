@@ -1,5 +1,8 @@
 function createMenu(){
+    const imgHeader = document.querySelector("#header-img")
+    imgHeader.src = "https://media.discordapp.net/attachments/762206362271744001/899067756119486484/unknown.png "
 
+   
 
 const main = document.querySelector("main");
 const titleDiv = document.createElement("div")
