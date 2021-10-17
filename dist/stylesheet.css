@@ -20,23 +20,23 @@ header {
   align-items: center;
   justify-content: center;
 }
-header p{
+header p {
   font-size: 18px;
   color: rgba(255, 255, 255, 0.482);
 }
 header h1 {
   position: absolute;
-  display: inline-block; 
+  display: inline-block;
   width: 140px;
   height: auto;
   top: 30%;
   padding: 20px;
   border: #e9c46a solid 1px;
   border-top: 0;
-  left: 0; 
-  right: 0; 
-  margin-left: auto; 
-  margin-right: auto; 
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
   padding-right: 15px;
   background-color: black;
 }
@@ -64,17 +64,15 @@ nav button:hover {
   transition: transform 1s;
   transition: color 0.5s;
 }
-#header-img{
+#header-img {
   margin: 0px;
   width: 100%;
   object-fit: fill;
   max-height: 600px;
   height: 10%;
-
 }
 
 main {
-
   background-color: black;
   margin: 40px;
   display: flex;
@@ -82,20 +80,19 @@ main {
   font-weight: 900;
   flex-direction: column;
   justify-content: center;
-  align-items: center;  
-
+  align-items: center;
 }
-#menu{
+#menu {
   background-color: black;
   display: grid;
-  grid-template-columns: repeat(3, 1fr) ;
-  grid-template-rows:repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
 }
-.menuContainer{
+.menuContainer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -103,67 +100,65 @@ main {
   background-blend-mode: lighten;
   color: black;
   font-size: 50px;
-  font-weight:bolder;
+  font-weight: bolder;
   margin: 25px;
   padding: 50px;
-   width: 350px;
+  width: 350px;
   height: 300px;
 }
-#hamburguesa{
+#hamburguesa {
   background-image: url(https://t2.rg.ltmcdn.com/es/images/0/8/9/img_pan_para_hamburguesa_28980_orig.jpg);
   background-size: cover;
 }
-#milanesa{
-
+#milanesa {
   background-image: url(https://viapais.com.ar/resizer/R1hsQjyZQrVim6i9TweHrvsRZS4=/1200x630/smart/cloudfront-us-east-1.images.arcpublishing.com/grupoclarin/MIZDGNRWMJRWKZLEGQZGCNRSGI.jpg);
   background-size: cover;
 }
-#tortilla{
+#tortilla {
   background-image: url(https://www.goya.com/media/3816/tortilla-espan-ola-potato-omelet.jpg?quality=80);
   background-size: cover;
 }
-#muzzarela{
+#muzzarela {
   background-image: url(https://i2.wp.com/locosxlapizza.com/wp-content/uploads/2015/02/pizza-mozzarella-receta-locosxlapizza-locos-x-la-pizza.jpg?fit=800%2C500&ssl=1);
   background-size: cover;
 }
-#empanadas{
+#empanadas {
   background-image: url(https://www.unileverfoodsolutions.com.ar/dam/global-ufs/mcos/sla/argentina/calcmenu/recipes/AR-recipes/pack-shot-truth-visual/empanadas-de-carne/main-header.jpg);
   background-size: cover;
 }
-#cafe{
+#cafe {
   background-image: url(https://i1.wp.com/depostalesurbanas.com/wp-content/uploads/2013/10/cafe-con-leche-y-medialunas.jpg?fit=720%2C720&ssl=1);
   background-size: cover;
-  
 }
-#contact{
+#contact {
   margin: 15px;
- display: flex;
- justify-content: center;
- align-items: center;  
- flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.contactContainer{
+.contactContainer {
   margin: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: wrap;
 }
-.contactStreet{
+.contactStreet {
   margin: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   font-weight: 400;
- font-size: 18px;
+  font-size: 18px;
 }
-.contactContent{
+.contactContent {
   margin: 15px;
   font-weight: 400;
- font-size: 24px;
+  font-size: 24px;
 }
-.contactInfo{
+.contactInfo {
   font-size: 30px;
   width: 300px;
   height: 300px;
