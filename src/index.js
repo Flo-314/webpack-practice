@@ -11,7 +11,7 @@ function clearMain(){
 
 createHead();
 createMain();
-createMenu();
+createHome();
 createFooter();
 
  const homeBtn = document.querySelector("#homeBtn");
