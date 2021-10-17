@@ -1,7 +1,7 @@
 function createContact(){
     
     const content = document.querySelector("main");
-    const contact = document.querySelector("div")
+    const contact = document.createElement("div")
     const imgHeader = document.querySelector("#header-img")
     imgHeader.src = "https://media.discordapp.net/attachments/762206362271744001/899063545407361084/unknown.png?width=731&height=327"
     const h2 = document.createElement("h2")
@@ -20,8 +20,8 @@ function createContact(){
     divStreet.textContent = "Varela 503 (3.01 mi) Buenos Aires, Ciudad Autónoma de Buenos Aires, Argentina, 1406"
     divInfo.textContent = "Nuestro telefono : 03453411 674545453580-9389999999999999999999"
     divStreet.append(imgMap)
-    content.append(h2,divContent,divStreet,divStreet,divInfo)
-
+    contact.append(h2,divContent,divStreet,divStreet,divInfo)
+    content.appendChild(contact)
 
         
 }
