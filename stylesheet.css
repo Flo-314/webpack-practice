@@ -46,7 +46,8 @@ header nav {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin: 10px;
+  font-size: 14px;
+  margin: 13px;
   margin-left: 50%;
 }
 nav button {
@@ -58,7 +59,6 @@ nav button {
   transition: 0.5s;
 }
 nav button:hover {
-  transform: scale(1.1);
   color: #e9c46a;
   text-decoration: underline solid #e9c46a;
   transition: transform 1s;
@@ -99,7 +99,8 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(228, 228, 0);
+  background-color: rgba(232, 228, 228, 0.715);
+  background-blend-mode: lighten;
   color: black;
   font-size: 50px;
   font-weight:bolder;
@@ -107,44 +108,38 @@ main {
   padding: 50px;
    width: 350px;
   height: 300px;
-  
 }
-#hamburguesa:hover{
-  transform: scale(1.1);
-  transition: 0.4s;
+#hamburguesa{
   background-image: url(https://t2.rg.ltmcdn.com/es/images/0/8/9/img_pan_para_hamburguesa_28980_orig.jpg);
   background-size: cover;
 }
-#milanesa:hover{
-  transform: scale(1.1);
-  transition: 0.4s;
+#milanesa{
+
   background-image: url(https://viapais.com.ar/resizer/R1hsQjyZQrVim6i9TweHrvsRZS4=/1200x630/smart/cloudfront-us-east-1.images.arcpublishing.com/grupoclarin/MIZDGNRWMJRWKZLEGQZGCNRSGI.jpg);
   background-size: cover;
 }
-#tortilla:hover{
-  transform: scale(1.1);
-  transition: 0.4s;
+#tortilla{
   background-image: url(https://www.goya.com/media/3816/tortilla-espan-ola-potato-omelet.jpg?quality=80);
   background-size: cover;
 }
-#muzzarela:hover{
-  transform: scale(1.1);
-  transition: 0.4s;
+#muzzarela{
   background-image: url(https://i2.wp.com/locosxlapizza.com/wp-content/uploads/2015/02/pizza-mozzarella-receta-locosxlapizza-locos-x-la-pizza.jpg?fit=800%2C500&ssl=1);
   background-size: cover;
 }
-#empanadas:hover{
-  transform: scale(1.1);
-  transition: 0.4s;
+#empanadas{
   background-image: url(https://www.unileverfoodsolutions.com.ar/dam/global-ufs/mcos/sla/argentina/calcmenu/recipes/AR-recipes/pack-shot-truth-visual/empanadas-de-carne/main-header.jpg);
   background-size: cover;
 }
-#cafe:hover{
-  transform: scale(1.1);
-  transition: 0.4s;
+#cafe{
   background-image: url(https://i1.wp.com/depostalesurbanas.com/wp-content/uploads/2013/10/cafe-con-leche-y-medialunas.jpg?fit=720%2C720&ssl=1);
   background-size: cover;
+  
 }
+.contactContent{
+  font-weight: 400;
+ font-size: 24px;
+}
+
 
 footer {
   color: black;
